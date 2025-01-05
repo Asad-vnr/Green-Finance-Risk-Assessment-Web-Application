@@ -4,7 +4,7 @@ import streamlit as st
 from sklearn.preprocessing import MinMaxScaler
 
 # Load the dataset
-df = pd.read_csv('SP 500 ESG Risk Ratings.csv')
+df = pd.read_csv('SP 500 ESG Risk Ratings.csv') # Please Update the CSV file's correct and exact Path 
 
 # Normalize the dataset to make comparisons easier
 scaler = MinMaxScaler()
